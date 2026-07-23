@@ -32,9 +32,11 @@ export function toTermCardData(
 export function TermCard({
   term,
   locale,
+  linkLabel,
 }: {
   term: TermCardData;
   locale: Locale;
+  linkLabel?: string;
 }) {
   const dictionary = getDictionary(locale);
   return (
@@ -60,7 +62,7 @@ export function TermCard({
       </div>
       <p>{term.shortDefinition}</p>
       <span className="card-link">
-        {dictionary.common.browse} <span aria-hidden>→</span>
+        {linkLabel ?? dictionary.common.browse} <span aria-hidden>→</span>
       </span>
     </Link>
   );

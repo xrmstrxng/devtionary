@@ -13,6 +13,7 @@ export const ptBR: Dictionary = {
     about: "Sobre",
   },
   common: {
+    readMore: "Ver mais",
     browse: "Explorar glossário",
     back: "Voltar ao glossário",
     terms: "termos",

@@ -30,9 +30,14 @@ export function AppHeader({
   return (
     <header className="site-header">
       <div className="header-inner container">
-        <Link className="logo" href={`/${locale}`} onClick={scrollToTop} scroll>
-          <span className="logo-pixel" />
-          Devtionary
+        <Link
+          aria-label="Devtionary"
+          className="logo"
+          href={`/${locale}`}
+          onClick={scrollToTop}
+          scroll
+        >
+          <span className="logo-mark" aria-hidden="true" />
         </Link>
         <nav aria-label="Main navigation">
           <Link href={`/${locale}`} onClick={scrollToTop} scroll>
