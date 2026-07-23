@@ -1,0 +1,2216 @@
+DEVTIONARY — TERMINOLOGIAS, CATEGORIAS E NÍVEIS TÉCNICOS
+=========================================================
+
+Total de termos: 737
+
+001. A/B Test
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+002. Abstraction
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+003. Acceptance Criteria
+     Categorias: Produto, Qualidade, Documentação
+     Nível técnico: Júnior
+004. Access Control
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+005. Access Token
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+006. Accessibility
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+007. Accessibility Audit
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+008. ACID
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+009. Acknowledgement
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+010. Acquirer
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+011. Action Item
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+012. Adapter
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+013. Admin Panel
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+014. Adoption
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+015. ADR
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+016. Affordance
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+017. Alert
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+018. Alerting
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+019. Alignment
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+020. Amend
+     Categorias: Git
+     Nível técnico: Todos os níveis
+021. Analytics
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+022. Analytics Event
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+023. Anti-pattern
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+024. Apache Kafka
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+025. API
+     Categorias: Desenvolvimento, Documentação
+     Nível técnico: Júnior
+026. API Contract
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+027. API Documentation
+     Categorias: Documentação, Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+028. API Gateway
+     Categorias: DevOps, Arquitetura, Integrações, Desenvolvimento
+     Nível técnico: Todos os níveis
+029. API Key
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+030. API Versioning
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+031. Application Server
+     Categorias: DevOps, Arquitetura
+     Nível técnico: Todos os níveis
+032. Approval
+     Categorias: Git
+     Nível técnico: Todos os níveis
+033. Architecture
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+034. Architecture Decision Record
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+035. Assertion
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+036. Asymmetric Encryption
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+037. At-Least-Once Delivery
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+038. At-Most-Once Delivery
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+039. Atomic Design
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+040. Audit Log
+     Categorias: Segurança, Documentação
+     Nível técnico: Todos os níveis
+041. Authentication
+     Categorias: Segurança, Desenvolvimento
+     Nível técnico: Júnior
+042. Authorization
+     Categorias: Segurança, Desenvolvimento
+     Nível técnico: Pleno
+043. Availability
+     Categorias: Arquitetura
+     Nível técnico: Sênior
+044. Availability Zone
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+045. B2B
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+046. B2C
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+047. Backend
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+048. Backend for Frontend
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+049. Background Job
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+050. Backlog
+     Categorias: Produto
+     Nível técnico: Júnior
+051. Backoff
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+052. Backoffice
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+053. Backpressure
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+054. Backward Compatibility
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+055. Banking as a Service
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+056. Batch Processing
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+057. Benchmark
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+058. Blameless Postmortem
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+059. Blocker
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+060. Blue-Green Deployment
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+061. Body
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+062. Boilerplate
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+063. Bottleneck
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+064. Bottleneck Analysis
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+065. Brainstorming
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+066. Branch
+     Categorias: Git
+     Nível técnico: Júnior
+067. Branch Protection
+     Categorias: Git
+     Nível técnico: Todos os níveis
+068. Breaking Change
+     Categorias: Git, Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+069. Brotli
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+070. Brute Force
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+071. Bug
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+072. Build
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+073. Bulkhead
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+074. BullMQ
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+075. Bundle
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+076. Bundler
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+077. Business Continuity
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+078. Business Intelligence
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+079. Business Requirement
+     Categorias: Produto, Documentação, Negócios
+     Nível técnico: Todos os níveis
+080. Business Rule
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+081. C4 Model
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+082. Cache
+     Categorias: Arquitetura, Banco de dados
+     Nível técnico: Pleno
+083. Cache Hit
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+084. Cache Invalidation
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+085. Cache Miss
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+086. Caching Strategy
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+087. Callback
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+088. Canary Release
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+089. CAP Theorem
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+090. Capacity
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+091. Capacity Planning
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+092. CDN
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+093. Certificate
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+094. Change Data Capture
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+095. Change Management
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+096. Changelog
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+097. Checkout
+     Categorias: Git
+     Nível técnico: Todos os níveis
+098. Cherry-pick
+     Categorias: Git
+     Nível técnico: Todos os níveis
+099. Choreography
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+100. Churn
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+101. CI/CD
+     Categorias: DevOps, Engenharia de plataforma
+     Nível técnico: Pleno
+102. CIO
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+103. Circuit Breaker
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps, Integrações, Desenvolvimento
+     Nível técnico: Todos os níveis
+104. Claim
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+105. Clean Architecture
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+106. Client Library
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+107. Client-side
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+108. Client-Side Rendering
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+109. Clock Skew
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+110. Clone
+     Categorias: Git
+     Nível técnico: Todos os níveis
+111. Cloud Computing
+     Categorias: DevOps, Cloud, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+112. Cluster
+     Categorias: DevOps, Cloud, Arquitetura
+     Nível técnico: Todos os níveis
+113. CMS
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+114. Code Owner
+     Categorias: Git
+     Nível técnico: Todos os níveis
+115. Code Review
+     Categorias: Qualidade
+     Nível técnico: Júnior
+116. Code Smell
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+117. Code Splitting
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+118. CODEOWNERS
+     Categorias: Git
+     Nível técnico: Todos os níveis
+119. Cohesion
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+120. Cohort
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+121. Color Palette
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+122. Column
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+123. Commission
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+124. Commit
+     Categorias: Git, Banco de dados
+     Nível técnico: Júnior
+125. Compensating Transaction
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+126. Compliance
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+127. Component
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+128. Component Diagram
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+129. Component Library
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+130. Compression
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+131. Concurrency
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+132. Configuration Server
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+133. Conflict
+     Categorias: Git
+     Nível técnico: Todos os níveis
+134. Connection Keep-Alive
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+135. Connection Pool
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+136. Consensus
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+137. Consistency
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+138. Consumer
+     Categorias: Mensageria, Arquitetura, Desenvolvimento, Integrações
+     Nível técnico: Todos os níveis
+139. Consumer-Driven Contract
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+140. Container
+     Categorias: DevOps, Cloud, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+141. Content Security Policy
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+142. Context
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+143. Contract
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+144. Contract Test
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+145. Contrast
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+146. Controller
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+147. Conventional Commits
+     Categorias: Git
+     Nível técnico: Todos os níveis
+148. Conversion
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+149. Conversion Rate
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+150. Cookie
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+151. Core System
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+152. Correlation ID
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+153. CORS
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+154. Coupling
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+155. CPU Bound
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+156. CQRS
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+157. Credential
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+158. Credential Stuffing
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+159. CRM
+     Categorias: Produto, Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+160. Cron Job
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+161. CSRF
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+162. CSS
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+163. CSS Module
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+164. CTO
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+165. Customer Acquisition Cost
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+166. Customer Journey
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+167. Daily
+     Categorias: Ágil e reuniões
+     Nível técnico: Júnior
+168. Dashboard
+     Categorias: Observabilidade, DevOps, Qualidade, Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+169. Data
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+170. Data Breach
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+171. Data Dictionary
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+172. Data Governance
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+173. Data Lake
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+174. Data Lakehouse
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+175. Data Mart
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+176. Data Masking
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+177. Data Migration
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+178. Data Modeling
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+179. Data Pipeline
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+180. Data Quality
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+181. Data Warehouse
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+182. Database
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+183. Database Migration
+     Categorias: Banco de dados
+     Nível técnico: Pleno
+184. Database Partitioning
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+185. Dataset
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+186. DBMS
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+187. Dead Letter Queue
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+188. Deadline
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+189. Deadlock
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+190. Defect
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+191. Definition of Done
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+192. Definition of Ready
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+193. Degradation
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+194. Deliverable
+     Categorias: Ágil e reuniões, Documentação, Gestão
+     Nível técnico: Todos os níveis
+195. Delivery
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+196. Delivery Lead
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+197. Denormalization
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+198. Dependency
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+199. Dependency Injection
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+200. Dependency Mapping
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+201. Deploy
+     Categorias: DevOps
+     Nível técnico: Júnior
+202. Deployment
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+203. Deprecation
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+204. Design Handoff
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+205. Design Pattern
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+206. Design System
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+207. Design Token
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+208. Detached HEAD
+     Categorias: Git
+     Nível técnico: Todos os níveis
+209. Diff
+     Categorias: Git
+     Nível técnico: Todos os níveis
+210. Digital Signature
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+211. Disaster Recovery
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+212. Discovery
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+213. Distributed Cache
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+214. Distributed Computing
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+215. Distributed Lock
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+216. Distributed System
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+217. Distributed Tracing
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+218. Distributed Transaction
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+219. DNS
+     Categorias: DevOps, Segurança
+     Nível técnico: Todos os níveis
+220. Docker
+     Categorias: DevOps, Cloud, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+221. Docker Compose
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+222. DOM
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+223. Domain
+     Categorias: DevOps, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+224. Domain-Driven Design
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+225. Downstream
+     Categorias: Git
+     Nível técnico: Todos os níveis
+226. Downtime
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+227. Draft Pull Request
+     Categorias: Git
+     Nível técnico: Todos os níveis
+228. DRY
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+229. DTO
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+230. Edge Case
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+231. Effort
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+232. ELT
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+233. Empty State
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+234. Encapsulation
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+235. Encryption
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+236. End-to-End Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+237. Endpoint
+     Categorias: Desenvolvimento
+     Nível técnico: Júnior
+238. Engagement
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+239. Engineering Manager
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+240. Enterprise System
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+241. Entity
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+242. Environment Variable
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+243. Epic
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+244. ERP
+     Categorias: Produto, Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+245. Error Budget
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+246. Error State
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+247. Escalation
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+248. ETA
+     Categorias: Gestão, Ágil e reuniões
+     Nível técnico: Júnior
+249. ETL
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+250. Event
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+251. Event Bus
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+252. Event Sourcing
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+253. Event Stream
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+254. Event Tracking
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+255. Event-Driven Architecture
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+256. Eventual Consistency
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+257. Exactly-Once Semantics
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+258. Exchange
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+259. Execution Plan
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+260. Experiment
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+261. Exploit
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+262. Exponential Backoff
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+263. External Service
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+264. Factory
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+265. Failover
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+266. Failure Path
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+267. Fallback
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+268. Fast-forward
+     Categorias: Git
+     Nível técnico: Todos os níveis
+269. Fault Tolerance
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+270. Feature
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+271. Feature Branch
+     Categorias: Git
+     Nível técnico: Todos os níveis
+272. Feature Flag
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+273. Feedback
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+274. Feedback Visual
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+275. Fetch
+     Categorias: Git
+     Nível técnico: Todos os níveis
+276. Figma
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+277. Fintech
+     Categorias: Produto, Negócios, Sistemas corporativos
+     Nível técnico: Todos os níveis
+278. Firewall
+     Categorias: DevOps, Segurança
+     Nível técnico: Todos os níveis
+279. Fixture
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+280. Flaky Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+281. Follow-up
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+282. Foreign Key
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+283. Fork
+     Categorias: Git
+     Nível técnico: Todos os níveis
+284. Forward Compatibility
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+285. Forward Proxy
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+286. Frontend
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+287. Full Stack
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+288. Functional Requirement
+     Categorias: Produto, Documentação
+     Nível técnico: Todos os níveis
+289. Functional Specification
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+290. Funnel
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+291. Gateway
+     Categorias: DevOps, Arquitetura, Segurança
+     Nível técnico: Todos os níveis
+292. Git
+     Categorias: Git
+     Nível técnico: Todos os níveis
+293. Git Bisect
+     Categorias: Git
+     Nível técnico: Todos os níveis
+294. Git Blame
+     Categorias: Git
+     Nível técnico: Todos os níveis
+295. Git Flow
+     Categorias: Git
+     Nível técnico: Todos os níveis
+296. Git Hook
+     Categorias: Git
+     Nível técnico: Todos os níveis
+297. Git Tag
+     Categorias: Git
+     Nível técnico: Todos os níveis
+298. Go-to-Market
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+299. Graceful Degradation
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+300. Graceful Shutdown
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+301. GraphQL
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+302. Grid System
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+303. Grooming
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+304. Gross Merchandise Value
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+305. Gross Revenue
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+306. gRPC
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+307. Guard
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+308. Gzip
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+309. Handoff
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+310. Happy Path
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+311. Hard Reset
+     Categorias: Git
+     Nível técnico: Todos os níveis
+312. Hash
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+313. HEAD
+     Categorias: Git
+     Nível técnico: Todos os níveis
+314. Header
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+315. Heads-up
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+316. Health Check
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+317. Heuristic Evaluation
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+318. Hexagonal Architecture
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+319. High Availability
+     Categorias: DevOps, Cloud, Arquitetura
+     Nível técnico: Todos os níveis
+320. HMAC
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+321. Hook
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+322. Horizontal Partitioning
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+323. Horizontal Scaling
+     Categorias: DevOps, Cloud, Arquitetura
+     Nível técnico: Todos os níveis
+324. Hotfix
+     Categorias: Desenvolvimento
+     Nível técnico: Pleno
+325. HRIS
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+326. HTTP
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+327. HttpOnly
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+328. HTTPS
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+329. Hydration
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+330. Hypothesis
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+331. I/O Bound
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+332. Idempotency
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+333. Identity
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+334. Identity Provider
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+335. Image
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+336. Impact
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+337. Impact vs Effort
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+338. Inbox Pattern
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+339. Incident
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+340. Incident Management
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+341. Incident Report
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+342. Incident Response
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+343. Incremental Static Regeneration
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+344. Index
+     Categorias: Banco de dados, Git
+     Nível técnico: Todos os níveis
+345. Information Architecture
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+346. Infrastructure as a Service
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+347. Infrastructure as Code
+     Categorias: DevOps, Cloud, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+348. Initiative
+     Categorias: Produto, Gestão
+     Nível técnico: Todos os níveis
+349. Integration
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+350. Integration Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+351. Interaction Design
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+352. Interceptor
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+353. Interface
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+354. Issue
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+355. Issuer
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+356. JavaScript
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+357. Job
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+358. Job to Be Done
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+359. Join
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+360. JWT
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+361. Key Rotation
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+362. Kickoff
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+363. KISS
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+364. Knowledge Base
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+365. KPI
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+366. Kubernetes
+     Categorias: DevOps, Cloud, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+367. Lagging Indicator
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+368. Latency
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+369. Layered Architecture
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+370. Lazy Loading
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+371. Leader Election
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+372. Leading Indicator
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+373. Least Privilege
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+374. Legacy Code
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+375. Legacy System
+     Categorias: Sistemas corporativos
+     Nível técnico: Todos os níveis
+376. Lifetime Value
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+377. Load Balancer
+     Categorias: DevOps, Arquitetura
+     Nível técnico: Todos os níveis
+378. Load Shedding
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+379. Load Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+380. Load Testing
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+381. Loading State
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+382. Local Repository
+     Categorias: Git
+     Nível técnico: Todos os níveis
+383. Log Level
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+384. Logging
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+385. Man-in-the-Middle
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+386. Margin
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+387. Marketplace
+     Categorias: Produto, Negócios, Sistemas corporativos
+     Nível técnico: Todos os níveis
+388. Master Data
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+389. Mean Time to Detect
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+390. Mean Time to Recovery
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+391. Memory Leak
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+392. Merge
+     Categorias: Git
+     Nível técnico: Todos os níveis
+393. Merge Commit
+     Categorias: Git
+     Nível técnico: Todos os níveis
+394. Merge Conflict
+     Categorias: Git
+     Nível técnico: Júnior
+395. Merge Request
+     Categorias: Git
+     Nível técnico: Todos os níveis
+396. Message
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+397. Message Broker
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+398. Messaging
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+399. Metadata
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+400. Metrics
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+401. Microservice
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+402. Middleware
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+403. Migration
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+404. Milestone
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+405. Mixed Reset
+     Categorias: Git
+     Nível técnico: Todos os níveis
+406. Mobile First
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+407. Mock
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+408. Mock Server
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+409. Mockup
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+410. Modular Monolith
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+411. Monitoring
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+412. Monolith
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+413. Monorepo
+     Categorias: Git
+     Nível técnico: Todos os níveis
+414. MoSCoW
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+415. Multi-Factor Authentication
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+416. Multi-Page Application
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+417. Multi-tenant
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+418. Mutex
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+419. MVP
+     Categorias: Produto
+     Nível técnico: Júnior
+420. N+1 Query
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+421. Net Revenue
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+422. Network Partition
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+423. Next Steps
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+424. Next.js
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+425. Nginx
+     Categorias: DevOps, Segurança
+     Nível técnico: Todos os níveis
+426. Node
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+427. Non-functional Requirement
+     Categorias: Produto, Documentação
+     Nível técnico: Todos os níveis
+428. Normalization
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+429. North Star Metric
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+430. NoSQL
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+431. OAuth
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+432. Observability
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+433. Observer
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+434. OKR
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+435. On-call
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+436. Onboarding Documentation
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+437. One-on-one
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+438. OpenAPI
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+439. OpenID Connect
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+440. Optimization
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+441. Orchestration
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+442. Origin
+     Categorias: Git
+     Nível técnico: Todos os níveis
+443. ORM
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+444. Outage
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+445. Outbox Pattern
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+446. OWASP
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+447. OWASP Top 10
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+448. Ownership
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+449. Pagination
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+450. Parallelism
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+451. Patch
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+452. Path Parameter
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+453. Payload
+     Categorias: Desenvolvimento
+     Nível técnico: Júnior
+454. Payment Gateway
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+455. Payment Processor
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+456. Penetration Test
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+457. Performance
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+458. Permission
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+459. Phishing
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+460. Pipeline
+     Categorias: DevOps, Arquitetura, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+461. Planning
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+462. Platform as a Service
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+463. Playbook
+     Categorias: Documentação, Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+464. Pod
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+465. Policy
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+466. Polling
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+467. Polyrepo
+     Categorias: Git
+     Nível técnico: Todos os níveis
+468. Port
+     Categorias: DevOps, Segurança, Arquitetura
+     Nível técnico: Todos os níveis
+469. POS
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+470. PostgreSQL
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+471. Postmortem
+     Categorias: Documentação, Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+472. Pre-commit Hook
+     Categorias: Git
+     Nível técnico: Todos os níveis
+473. Primary Key
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+474. Principal Engineer
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+475. Prioritization
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+476. Prioritization Matrix
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+477. Private Key
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+478. Producer
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+479. Product
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+480. Product Delivery
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+481. Product Discovery
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+482. Product Manager
+     Categorias: Produto, Gestão
+     Nível técnico: Todos os níveis
+483. Product Owner
+     Categorias: Produto, Gestão
+     Nível técnico: Todos os níveis
+484. Product Roadmap
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+485. Product-Market Fit
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+486. Production Incident
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+487. Profiling
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+488. Progressive Web App
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+489. Project Manager
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+490. Proof of Concept
+     Categorias: Produto
+     Nível técnico: Pleno
+491. Props
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+492. Protected Branch
+     Categorias: Git
+     Nível técnico: Todos os níveis
+493. Prototype
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+494. Provider
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+495. Proxy
+     Categorias: DevOps, Arquitetura, Segurança
+     Nível técnico: Todos os níveis
+496. Public Key
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+497. Publish/Subscribe
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+498. Publisher
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+499. Pull
+     Categorias: Git
+     Nível técnico: Todos os níveis
+500. Pull Request
+     Categorias: Git
+     Nível técnico: Júnior
+501. Push
+     Categorias: Git
+     Nível técnico: Todos os níveis
+502. Quality Assurance
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+503. Query
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+504. Query Parameter
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+505. Query Plan
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+506. Queue
+     Categorias: Arquitetura, Mensageria, Desenvolvimento
+     Nível técnico: Pleno
+507. Quorum
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+508. RabbitMQ
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+509. Race Condition
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+510. Rate Limit
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+511. Rate Limiting
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+512. React
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+513. Read Replica
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+514. README
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+515. Rebase
+     Categorias: Git
+     Nível técnico: Todos os níveis
+516. Rebase Interactive
+     Categorias: Git
+     Nível técnico: Todos os níveis
+517. Recovery Point Objective
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+518. Recovery Time Objective
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+519. Recurring Billing
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+520. Redis
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+521. Redundancy
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+522. Refactoring
+     Categorias: Qualidade, Arquitetura
+     Nível técnico: Pleno
+523. Refinement
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+524. Refresh Token
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+525. Registry
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+526. Regression Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+527. Relational Database
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+528. Release
+     Categorias: DevOps, Git
+     Nível técnico: Todos os níveis
+529. Release Branch
+     Categorias: Git
+     Nível técnico: Todos os níveis
+530. Release Notes
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+531. Remote
+     Categorias: Git
+     Nível técnico: Todos os níveis
+532. Remote Repository
+     Categorias: Git
+     Nível técnico: Todos os níveis
+533. Rendering
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+534. Replay Attack
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+535. Replication
+     Categorias: Banco de dados, Arquitetura
+     Nível técnico: Todos os níveis
+536. Report
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+537. Repository
+     Categorias: Desenvolvimento, Arquitetura, Git
+     Nível técnico: Todos os níveis
+538. Repository Pattern
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+539. Reproducibility
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+540. Request
+     Categorias: Desenvolvimento
+     Nível técnico: Júnior
+541. Request Signing
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+542. Requirement
+     Categorias: Produto, Documentação
+     Nível técnico: Todos os níveis
+543. Reset
+     Categorias: Git
+     Nível técnico: Todos os níveis
+544. Resilience
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+545. Response
+     Categorias: Desenvolvimento
+     Nível técnico: Júnior
+546. Response Time
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+547. Responsive Breakpoint
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+548. Responsive Design
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+549. REST
+     Categorias: Desenvolvimento, Integrações, Arquitetura
+     Nível técnico: Todos os níveis
+550. RESTful
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+551. Retention
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+552. Retention Rate
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+553. Retrospective
+     Categorias: Ágil e reuniões
+     Nível técnico: Júnior
+554. Retry
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+555. Retry Policy
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps, Integrações, Desenvolvimento
+     Nível técnico: Todos os níveis
+556. Revenue
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+557. Reverse Proxy
+     Categorias: DevOps, Arquitetura
+     Nível técnico: Todos os níveis
+558. Revert
+     Categorias: Git
+     Nível técnico: Todos os níveis
+559. Review
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+560. Review Comment
+     Categorias: Git
+     Nível técnico: Todos os níveis
+561. RFC
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+562. RICE
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+563. Risk
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+564. Risk Assessment
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+565. Roadmap
+     Categorias: Produto, Documentação, Gestão
+     Nível técnico: Todos os níveis
+566. ROI
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+567. Role
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+568. Role-Based Access Control
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+569. Rollback
+     Categorias: DevOps, Git, Banco de dados
+     Nível técnico: Pleno
+570. Rollout
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+571. Root Cause
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+572. Root Cause Analysis
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+573. Route
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+574. Routing Key
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+575. Row
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+576. RPC
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+577. Runbook
+     Categorias: Documentação, Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+578. SaaS
+     Categorias: Produto, Negócios, Sistemas corporativos
+     Nível técnico: Todos os níveis
+579. Saga
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+580. Salt
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+581. SameSite
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+582. Sandbox Environment
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+583. Scaffolding
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+584. Scalability
+     Categorias: Arquitetura
+     Nível técnico: Sênior
+585. Scheduler
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+586. Schema
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+587. Schema Validation
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+588. Scope
+     Categorias: Produto, Negócios, Gestão, Segurança
+     Nível técnico: Todos os níveis
+589. Scope Creep
+     Categorias: Gestão, Produto, Negócios
+     Nível técnico: Pleno
+590. Scrum Master
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+591. SDK
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+592. Secret
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+593. Secret Management
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+594. Secure Cookie
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+595. Security Audit
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+596. Security Header
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+597. Seed
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+598. Semantic HTML
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+599. Semantic Versioning
+     Categorias: Git
+     Nível técnico: Todos os níveis
+600. Semaphore
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+601. Separation of Concerns
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+602. Sequence Diagram
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+603. Serialization
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+604. Server-side
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+605. Server-Side Rendering
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+606. Serverless
+     Categorias: DevOps, Cloud, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+607. Service
+     Categorias: Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+608. Service Discovery
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+609. Service Level Indicator
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+610. Service Level Objective
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+611. Session
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+612. Session Hijacking
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+613. Sharding
+     Categorias: Banco de dados, Arquitetura
+     Nível técnico: Todos os níveis
+614. Single Page Application
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+615. Single Sign-On
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+616. Skeleton Screen
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+617. SLA
+     Categorias: Negócios, Produto
+     Nível técnico: Pleno
+618. Slow Query
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+619. Smoke Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+620. Soak Testing
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+621. SOAP
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+622. Soft Reset
+     Categorias: Git
+     Nível técnico: Todos os níveis
+623. Software Architecture
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+624. Software as a Service
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+625. SOLID
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+626. Source Control
+     Categorias: Git
+     Nível técnico: Todos os níveis
+627. Spike Testing
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+628. Split Brain
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+629. Sprint
+     Categorias: Ágil e reuniões
+     Nível técnico: Júnior
+630. Spy
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+631. SQL Injection
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+632. Squash
+     Categorias: Git
+     Nível técnico: Todos os níveis
+633. Squash Merge
+     Categorias: Git
+     Nível técnico: Todos os níveis
+634. SSL
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+635. Staff Engineer
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+636. Staging Area
+     Categorias: Git
+     Nível técnico: Todos os níveis
+637. Stakeholder
+     Categorias: Negócios, Produto
+     Nível técnico: Todos os níveis
+638. Stakeholder Management
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+639. Stand-up
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+640. Stash
+     Categorias: Git
+     Nível técnico: Todos os níveis
+641. State
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+642. State Management
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+643. Static Site Generation
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+644. Status Code
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+645. Storybook
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+646. Strategy
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+647. Stream Processing
+     Categorias: Dados e analytics, Banco de dados
+     Nível técnico: Todos os níveis
+648. Stress Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+649. Stress Testing
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+650. Strong Consistency
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+651. Structured Logging
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+652. Stub
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+653. Subdomain
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+654. Subscriber
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+655. Subscription
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+656. Swagger
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+657. Symmetric Encryption
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+658. Sync
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+659. Table
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+660. Tag
+     Categorias: Git
+     Nível técnico: Todos os níveis
+661. Tailwind CSS
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+662. Takeaway
+     Categorias: Ágil e reuniões
+     Nível técnico: Todos os níveis
+663. Task
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+664. Tech Lead
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+665. Technical Debt
+     Categorias: Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+666. Technical Documentation
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+667. Technical Roadmap
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+668. Technical Specification
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+669. Telemetry
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+670. Tenant
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+671. Terraform
+     Categorias: DevOps, Cloud, Engenharia de plataforma
+     Nível técnico: Todos os níveis
+672. Test Case
+     Categorias: Qualidade, Documentação
+     Nível técnico: Todos os níveis
+673. Test Coverage
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+674. Test Scenario
+     Categorias: Qualidade, Documentação
+     Nível técnico: Todos os níveis
+675. Third-Party Integration
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+676. Threat Modeling
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+677. Throttling
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps, Integrações, Desenvolvimento
+     Nível técnico: Todos os níveis
+678. Throughput
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+679. Time to Market
+     Categorias: Produto, Negócios
+     Nível técnico: Todos os níveis
+680. Timeout
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps, Integrações, Desenvolvimento
+     Nível técnico: Todos os níveis
+681. TLS
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+682. TMS
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+683. Token
+     Categorias: Desenvolvimento, Segurança
+     Nível técnico: Todos os níveis
+684. Tokenization
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+685. Topic
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+686. Trace ID
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+687. Tracing
+     Categorias: Observabilidade, DevOps, Qualidade
+     Nível técnico: Todos os níveis
+688. Tracking Branch
+     Categorias: Git
+     Nível técnico: Todos os níveis
+689. Trade-off
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+690. Transaction
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+691. Transaction Fee
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+692. Tree Shaking
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+693. Troubleshooting Guide
+     Categorias: Documentação
+     Nível técnico: Todos os níveis
+694. Trunk-Based Development
+     Categorias: Git
+     Nível técnico: Todos os níveis
+695. Two-Factor Authentication
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+696. Two-Phase Commit
+     Categorias: Sistemas distribuídos, Arquitetura, DevOps
+     Nível técnico: Todos os níveis
+697. TypeScript
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+698. Typography
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+699. Unique Constraint
+     Categorias: Banco de dados
+     Nível técnico: Todos os níveis
+700. Unit Economics
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+701. Unit Test
+     Categorias: Qualidade
+     Nível técnico: Todos os níveis
+702. Upstream
+     Categorias: Git
+     Nível técnico: Todos os níveis
+703. Uptime
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+704. Usability
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+705. Use Case
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+706. User Experience
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+707. User Flow
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+708. User Interface
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+709. User Journey
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+710. User Persona
+     Categorias: Produto
+     Nível técnico: Todos os níveis
+711. User Story
+     Categorias: Produto, Documentação
+     Nível técnico: Todos os níveis
+712. Validation
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+713. Version Control
+     Categorias: Git
+     Nível técnico: Todos os níveis
+714. Vertical Partitioning
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+715. Vertical Scaling
+     Categorias: DevOps, Cloud, Arquitetura
+     Nível técnico: Todos os níveis
+716. Virtual DOM
+     Categorias: Frontend, Desenvolvimento
+     Nível técnico: Todos os níveis
+717. Virtual Machine
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+718. Visual Hierarchy
+     Categorias: Design, Produto
+     Nível técnico: Todos os níveis
+719. Volume
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+720. VPS
+     Categorias: DevOps, Cloud
+     Nível técnico: Todos os níveis
+721. Vulnerability
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+722. Vulnerability Scan
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+723. Web Server
+     Categorias: DevOps
+     Nível técnico: Todos os níveis
+724. Webhook
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+725. Webhook Signature
+     Categorias: Integrações, Desenvolvimento, Arquitetura
+     Nível técnico: Todos os níveis
+726. WebSocket
+     Categorias: Desenvolvimento
+     Nível técnico: Todos os níveis
+727. White Label
+     Categorias: Produto, Negócios, Sistemas corporativos
+     Nível técnico: Todos os níveis
+728. Wireframe
+     Categorias: Design
+     Nível técnico: Júnior
+729. WMS
+     Categorias: Sistemas corporativos, Negócios
+     Nível técnico: Todos os níveis
+730. Worker
+     Categorias: Mensageria, Arquitetura, Desenvolvimento
+     Nível técnico: Todos os níveis
+731. Working Tree
+     Categorias: Git
+     Nível técnico: Todos os níveis
+732. Workload
+     Categorias: Ágil e reuniões, Gestão
+     Nível técnico: Todos os níveis
+733. Write Back
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+734. Write Through
+     Categorias: Performance, Qualidade, Arquitetura
+     Nível técnico: Todos os níveis
+735. XSS
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
+736. YAGNI
+     Categorias: Arquitetura
+     Nível técnico: Todos os níveis
+737. Zero Trust
+     Categorias: Segurança
+     Nível técnico: Todos os níveis
