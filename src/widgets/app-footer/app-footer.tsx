@@ -7,7 +7,10 @@ export function AppFooter({ dictionary }: { dictionary: Dictionary }) {
         <span>
           Devtionary <PixelStar variant="small" />
         </span>
-        <p>{dictionary.footer}</p>
+        <div className="footer-copy">
+          <p>{dictionary.footer}</p>
+          <small>© 2026 Natalia Armstrong ^-^</small>
+        </div>
       </div>
     </footer>
   );

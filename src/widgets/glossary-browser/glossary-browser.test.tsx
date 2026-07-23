@@ -1,4 +1,10 @@
-import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+import {
+  cleanup,
+  fireEvent,
+  render,
+  screen,
+  within,
+} from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { rawTerms } from "@/content/terms";
 import { normalizeSearch } from "@/features/search-terms/search";
@@ -29,6 +35,29 @@ beforeEach(() => {
 afterEach(cleanup);
 
 describe("glossary browser", () => {
+  it("opens the styled category listbox and applies an option", () => {
+    render(
+      <GlossaryBrowser
+        dictionary={getDictionary("pt-BR")}
+        locale="pt-BR"
+        terms={terms}
+      />,
+    );
+
+    fireEvent.click(
+      screen.getByRole("button", { name: "Categoria Todas as categorias" }),
+    );
+    const listbox = screen.getByRole("listbox", { name: "Categoria" });
+    fireEvent.click(
+      within(listbox).getByRole("option", { name: "Desenvolvimento" }),
+    );
+
+    expect(navigation.replace).toHaveBeenCalledWith(
+      "/pt-BR/glossary?category=development",
+      { scroll: false },
+    );
+  });
+
   it("shows the active letter filter only once as a removable chip", () => {
     navigation.search = "letter=F";
     render(

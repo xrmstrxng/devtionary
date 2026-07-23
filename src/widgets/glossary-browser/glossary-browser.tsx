@@ -1,5 +1,13 @@
 "use client";
-import { useDeferredValue, useEffect, useMemo, useState } from "react";
+import {
+  type KeyboardEvent,
+  useDeferredValue,
+  useEffect,
+  useId,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { categories } from "@/content/categories";
 import { levels, termTypes } from "@/entities/glossary-term/model";
@@ -17,6 +25,143 @@ import { Pagination } from "@/shared/components/ui/pagination";
 import type { GlossaryListTerm } from "@/data/local-glossary-list";
 
 const PAGE_SIZE = 30;
+
+type FilterOption = {
+  label: string;
+  value: string;
+};
+
+function FilterSelect({
+  label,
+  onChange,
+  options,
+  value,
+}: {
+  label: string;
+  onChange: (value: string) => void;
+  options: FilterOption[];
+  value: string;
+}) {
+  const id = useId();
+  const rootRef = useRef<HTMLDivElement>(null);
+  const selectedIndex = Math.max(
+    0,
+    options.findIndex((option) => option.value === value),
+  );
+  const [open, setOpen] = useState(false);
+  const [activeIndex, setActiveIndex] = useState(selectedIndex);
+
+  useEffect(() => {
+    if (!open) return;
+    const closeOnOutsideClick = (event: MouseEvent) => {
+      if (!rootRef.current?.contains(event.target as Node)) setOpen(false);
+    };
+    document.addEventListener("mousedown", closeOnOutsideClick);
+    return () => document.removeEventListener("mousedown", closeOnOutsideClick);
+  }, [open]);
+
+  useEffect(() => {
+    if (!open) return;
+    document
+      .getElementById(`${id}-option-${activeIndex}`)
+      ?.scrollIntoView?.({ block: "nearest" });
+  }, [activeIndex, id, open]);
+
+  function select(index: number) {
+    onChange(options[index].value);
+    setActiveIndex(index);
+    setOpen(false);
+  }
+
+  function handleKeyDown(event: KeyboardEvent<HTMLButtonElement>) {
+    if (!open) {
+      if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+        event.preventDefault();
+        setActiveIndex(selectedIndex);
+        setOpen(true);
+      }
+      return;
+    }
+
+    if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+      event.preventDefault();
+      const direction = event.key === "ArrowDown" ? 1 : -1;
+      setActiveIndex(
+        (current) => (current + direction + options.length) % options.length,
+      );
+    } else if (event.key === "Home" || event.key === "End") {
+      event.preventDefault();
+      setActiveIndex(event.key === "Home" ? 0 : options.length - 1);
+    } else if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      select(activeIndex);
+    } else if (event.key === "Escape") {
+      event.preventDefault();
+      setOpen(false);
+    }
+  }
+
+  return (
+    <div
+      className="filter-field"
+      onBlur={(event) => {
+        if (!event.currentTarget.contains(event.relatedTarget)) setOpen(false);
+      }}
+      ref={rootRef}
+    >
+      <span className="filter-label" id={`${id}-label`}>
+        {label}
+      </span>
+      <div className="filter-select">
+        <button
+          aria-controls={`${id}-menu`}
+          aria-expanded={open}
+          aria-haspopup="listbox"
+          aria-labelledby={`${id}-label ${id}-value`}
+          className="filter-select-button"
+          id={`${id}-value`}
+          onClick={() => {
+            setActiveIndex(selectedIndex);
+            setOpen((current) => !current);
+          }}
+          onKeyDown={handleKeyDown}
+          type="button"
+        >
+          <span>{options[selectedIndex].label}</span>
+          <span className="filter-select-chevron" aria-hidden="true" />
+        </button>
+        {open && (
+          <div
+            aria-labelledby={`${id}-label`}
+            className="filter-select-menu"
+            id={`${id}-menu`}
+            role="listbox"
+          >
+            {options.map((option, index) => (
+              <button
+                aria-selected={index === selectedIndex}
+                className="filter-select-option"
+                data-active={index === activeIndex || undefined}
+                id={`${id}-option-${index}`}
+                key={option.value}
+                onClick={() => select(index)}
+                onMouseEnter={() => setActiveIndex(index)}
+                role="option"
+                tabIndex={-1}
+                type="button"
+              >
+                <span>{option.label}</span>
+                {index === selectedIndex && (
+                  <span className="filter-select-selected" aria-hidden="true" />
+                )}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export function GlossaryBrowser({
   terms,
@@ -133,48 +278,42 @@ export function GlossaryBrowser({
   }
   const controls = (
     <>
-      <label>
-        {dictionary.glossary.category}
-        <select
-          value={filters.category}
-          onChange={(e) => update("category", e.target.value)}
-        >
-          <option value="">{dictionary.glossary.allCategories}</option>
-          {categories.map((c) => (
-            <option key={c.slug} value={c.slug}>
-              {c.name[locale]}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label>
-        {dictionary.glossary.level}
-        <select
-          value={filters.level}
-          onChange={(e) => update("level", e.target.value)}
-        >
-          <option value="">{dictionary.glossary.all}</option>
-          {levels.map((v) => (
-            <option key={v} value={v}>
-              {labelFor("level", v, locale)}
-            </option>
-          ))}
-        </select>
-      </label>
-      <label>
-        {dictionary.glossary.type}
-        <select
-          value={filters.type}
-          onChange={(e) => update("type", e.target.value)}
-        >
-          <option value="">{dictionary.glossary.all}</option>
-          {termTypes.map((v) => (
-            <option key={v} value={v}>
-              {labelFor("type", v, locale)}
-            </option>
-          ))}
-        </select>
-      </label>
+      <FilterSelect
+        label={dictionary.glossary.category}
+        onChange={(value) => update("category", value)}
+        options={[
+          { label: dictionary.glossary.allCategories, value: "" },
+          ...categories.map((category) => ({
+            label: category.name[locale],
+            value: category.slug,
+          })),
+        ]}
+        value={filters.category}
+      />
+      <FilterSelect
+        label={dictionary.glossary.level}
+        onChange={(value) => update("level", value)}
+        options={[
+          { label: dictionary.glossary.all, value: "" },
+          ...levels.map((level) => ({
+            label: labelFor("level", level, locale),
+            value: level,
+          })),
+        ]}
+        value={filters.level}
+      />
+      <FilterSelect
+        label={dictionary.glossary.type}
+        onChange={(value) => update("type", value)}
+        options={[
+          { label: dictionary.glossary.all, value: "" },
+          ...termTypes.map((type) => ({
+            label: labelFor("type", type, locale),
+            value: type,
+          })),
+        ]}
+        value={filters.type}
+      />
       <button className="clear-button" onClick={clearFilters}>
         {dictionary.glossary.clear}
       </button>
