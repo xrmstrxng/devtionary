@@ -6,6 +6,7 @@ export const en = {
     about: "About",
   },
   common: {
+    readMore: "Read more",
     browse: "Browse glossary",
     back: "Back to glossary",
     terms: "terms",

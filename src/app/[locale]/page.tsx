@@ -82,7 +82,11 @@ export default async function Home({
         <div className="split container">
           <div>
             <p className="eyebrow">02 / {d.home.daily.toUpperCase()}</p>
-            <TermCard term={toTermCardData(daily, locale)} locale={locale} />
+            <TermCard
+              term={toTermCardData(daily, locale)}
+              locale={locale}
+              linkLabel={d.common.readMore}
+            />
           </div>
           <div>
             <p className="eyebrow">03 / {d.home.featured.toUpperCase()}</p>
@@ -92,6 +96,7 @@ export default async function Home({
                   key={term.slug}
                   term={toTermCardData(term, locale)}
                   locale={locale}
+                  linkLabel={d.common.readMore}
                 />
               ))}
             </div>

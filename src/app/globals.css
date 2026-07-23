@@ -118,25 +118,48 @@ h1 {
   gap: 28px;
 }
 .logo {
-  position: relative;
-  font-weight: 800;
-  font-size: 1.05rem;
+  display: inline-flex;
+  align-items: center;
   margin-right: auto;
-  font-family: var(--font-game-display);
-  letter-spacing: -0.03em;
 }
-.logo::after {
-  content: "_";
-  color: var(--accent);
-  margin-left: 2px;
-}
-.logo-pixel {
+.logo-mark {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  background: var(--primary);
-  margin-right: 10px;
-  box-shadow: 4px -4px 0 var(--secondary);
+  width: 52px;
+  height: 42px;
+  flex: 0 0 auto;
+  background: url("/assets/devtionary-logo-v2-header.png") center / contain
+    no-repeat;
+  filter: drop-shadow(1px 2px 0 rgba(32, 8, 32, 0.72));
+  transform-origin: center;
+}
+.logo:hover .logo-mark,
+.logo:focus-visible .logo-mark {
+  animation: logo-mark-glitch 480ms steps(1, end);
+}
+@keyframes logo-mark-glitch {
+  0%,
+  100% {
+    transform: translate(0);
+    filter: drop-shadow(1px 2px 0 rgba(32, 8, 32, 0.72));
+  }
+  18% {
+    transform: translate(-2px, 1px);
+    filter: drop-shadow(2px 0 var(--accent-yellow-soft))
+      drop-shadow(-2px 0 var(--color-indigo)) brightness(1.12);
+  }
+  36% {
+    transform: translate(2px, -1px);
+    filter: drop-shadow(-2px 0 var(--accent-apricot))
+      drop-shadow(2px 0 var(--color-rose)) brightness(1.2);
+  }
+  54% {
+    transform: translate(-1px, 0);
+    filter: drop-shadow(1px 0 var(--accent-yellow-soft)) brightness(1.08);
+  }
+  72% {
+    transform: translate(1px, 0);
+    filter: drop-shadow(-1px 0 var(--color-indigo));
+  }
 }
 nav {
   display: flex;
@@ -845,8 +868,48 @@ nav a:hover {
 }
 .split {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 32px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+}
+.surface-section .split > div {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+}
+.surface-section .split > div:last-child {
+  grid-column: span 3;
+}
+.surface-section .split .eyebrow {
+  margin: 0 0 14px;
+  white-space: nowrap;
+}
+.surface-section .split > div > .term-card,
+.surface-section .split > div > .term-grid {
+  flex: 1;
+}
+.surface-section .term-card {
+  border: 0;
+  background: color-mix(in srgb, var(--surface) 90%, var(--surface-elevated));
+  box-shadow: 0 10px 24px rgba(8, 3, 20, 0.22);
+}
+.surface-section .term-card:hover,
+.surface-section .term-card:focus-visible {
+  border-color: transparent;
+  box-shadow: 0 14px 30px rgba(8, 3, 20, 0.34);
+}
+.surface-section .term-card h3 {
+  display: -webkit-box;
+  min-height: 3.375rem;
+  overflow: hidden;
+  line-height: 1.25;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.surface-section .term-card p {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 }
 .term-grid {
   display: grid;
@@ -963,7 +1026,7 @@ nav a:hover {
 }
 .term-card h3 {
   font: 700 1.35rem monospace;
-  margin: 14px 0 5px;
+  margin: 14px 0 1px;
   overflow-wrap: anywhere;
 }
 .term-card:hover .card-link,
@@ -974,22 +1037,29 @@ nav a:hover {
   color: var(--accent);
 }
 .term-card p {
+  margin: 8px 0 14px;
   color: var(--text-secondary);
   font-size: 0.9rem;
+  line-height: 1.55;
 }
 .category-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin-top: 8px;
+  gap: 6px;
+  margin-top: 2px;
 }
 .category-badges span {
   color: var(--text-secondary);
-  background: color-mix(in srgb, var(--color-mauve) 20%, transparent);
-  border: 1px solid var(--color-muted-plum);
-  border-radius: 4px;
-  padding: 1px 6px;
-  font: 600 0.62rem monospace;
+  background: color-mix(in srgb, var(--color-orchid) 16%, transparent);
+  border: 0;
+  border-radius: 999px;
+  padding: 3px 8px;
+  font:
+    500 0.64rem Inter,
+    ui-sans-serif,
+    system-ui,
+    sans-serif;
+  letter-spacing: 0.01em;
 }
 .card-link {
   margin-top: auto;
@@ -1447,6 +1517,9 @@ nav a:hover {
   .split {
     grid-template-columns: 1fr;
   }
+  .surface-section .split > div:last-child {
+    grid-column: auto;
+  }
   .browser-layout {
     grid-template-columns: 1fr;
   }
@@ -1608,6 +1681,8 @@ nav a:hover {
   .hero h1::before,
   .hero h1::after,
   .hero-stars .pixel-star,
+  .logo:hover .logo-mark,
+  .logo:focus-visible .logo-mark,
   .category-loading .skeleton-line::after,
   .category-loading .skeleton-card::after {
     animation: none !important;
