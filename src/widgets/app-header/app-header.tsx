@@ -35,21 +35,25 @@ export function AppHeader({
           className="logo"
           href={`/${locale}`}
           onClick={scrollToTop}
-          scroll
+          scroll={false}
         >
           <span className="logo-mark" aria-hidden="true" />
         </Link>
         <nav aria-label="Main navigation">
-          <Link href={`/${locale}`} onClick={scrollToTop} scroll>
+          <Link href={`/${locale}`} onClick={scrollToTop} scroll={false}>
             {dictionary.nav.home}
           </Link>
           <Link href={`/${locale}/#categories`}>
             {dictionary.nav.categories}
           </Link>
-          <Link href={`/${locale}/glossary`} onClick={scrollToTop} scroll>
+          <Link
+            href={`/${locale}/glossary`}
+            onClick={scrollToTop}
+            scroll={false}
+          >
             {dictionary.nav.glossary}
           </Link>
-          <Link href={`/${locale}/about`} onClick={scrollToTop} scroll>
+          <Link href={`/${locale}/about`} onClick={scrollToTop} scroll={false}>
             {dictionary.nav.about}
           </Link>
         </nav>

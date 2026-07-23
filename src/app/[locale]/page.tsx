@@ -10,6 +10,39 @@ import { HomeScrollReset } from "@/features/home-scroll-reset/home-scroll-reset"
 import { TermAutocomplete } from "@/features/search-terms/term-autocomplete";
 import { WarmLink } from "@/shared/components/ui/warm-link";
 
+function CategoryIcon({ fallback, slug }: { fallback: string; slug: string }) {
+  let icon;
+
+  if (slug === "architecture") {
+    icon = (
+      <svg viewBox="0 0 24 24">
+        <rect x="9" y="3" width="6" height="5" rx="1" />
+        <rect x="3" y="16" width="6" height="5" rx="1" />
+        <rect x="15" y="16" width="6" height="5" rx="1" />
+        <path d="M12 8v4M6 16v-4h12v4" />
+      </svg>
+    );
+  } else if (slug === "devops") {
+    icon = (
+      <svg viewBox="0 0 24 24">
+        <path d="M7.2 8.2C4.9 8.2 3 9.9 3 12s1.9 3.8 4.2 3.8c4.3 0 5.3-7.6 9.6-7.6 2.3 0 4.2 1.7 4.2 3.8s-1.9 3.8-4.2 3.8c-4.3 0-5.3-7.6-9.6-7.6Z" />
+      </svg>
+    );
+  } else if (slug === "cloud") {
+    icon = (
+      <svg viewBox="0 0 24 24">
+        <path d="M7 18h10a4 4 0 0 0 .4-7.98A6 6 0 0 0 6.1 8.1 4.5 4.5 0 0 0 7 18Z" />
+      </svg>
+    );
+  }
+
+  return (
+    <span className="category-icon" aria-hidden="true">
+      {icon ?? fallback}
+    </span>
+  );
+}
+
 export default async function Home({
   params,
 }: {
@@ -65,7 +98,10 @@ export default async function Home({
               key={category.slug}
               href={`/${locale}/categories/${category.slug}`}
             >
-              <span aria-hidden>{["{ }", "⌘", "▦", "⑂", "∞", "△"][index]}</span>
+              <CategoryIcon
+                fallback={["{ }", "⌘", "▦", "⑂", "∞", "△"][index]}
+                slug={category.slug}
+              />
               <h3>{category.name[locale]}</h3>
               <p>
                 {

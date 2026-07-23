@@ -15,7 +15,7 @@ export default async function About({
       <h1>{d.about.title}</h1>
       <p className="lead">{d.about.description}</p>
       <div className="about-panel">
-        <span aria-hidden>{`< / >`}</span>
+        <span aria-hidden>{`</>`}</span>
         <p>{d.about.body}</p>
       </div>
     </div>
